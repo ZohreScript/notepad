@@ -37,6 +37,7 @@
   justify-content: space-between;
   color: var(--text-400);
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .note-status span {
@@ -100,4 +101,19 @@
 
 .note-item__footer {
   color: var(--text-300);
+}
+
+@media only screen and (max-width: 620px) {  
+  .add-new-note ,.note-container{
+    width: 100%;
+  }
+  .note-header {
+    display: inline-block;
+  }
+  .note-app {
+    display: inline-block;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
 }
